@@ -5,6 +5,7 @@ description = "Cirrhosis Patient Survival Prediction & MLOps"
 authors = ["Neruff <roman.r1ff@mail.ru>"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "cirrhosis_predictor"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
