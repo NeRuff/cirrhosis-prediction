@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cirrhosis-predictor"
+version = "0.1.0"
+description = "Cirrhosis Patient Survival Prediction & MLOps"
+authors = ["Neruff <roman.r1ff@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^3.0.1"
+numpy = "^2.4.3"
+scikit-learn = "^1.8.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
+jupyter = "^1.1.1"
+catboost = "^1.2.10"
+optuna = "^4.7.0"
+loguru = "^0.7.3"
+typer = "^0.24.1"
+python-dateutil = "^2.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
